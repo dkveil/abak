@@ -739,7 +739,7 @@ h2::after {
 }
 
 .dist-col {
-  margin: 4rem auto;
+  margin: 3rem auto;
 }
 @media screen and (min-width: 768px) {
   .dist-col {
