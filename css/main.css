@@ -171,8 +171,32 @@ h2.h2--site-contact-invite {
   text-shadow: 0 0 20px #f2f2f2;
   font-size: 4rem;
 }
+h2.h2--guaranted::after {
+  content: "";
+  display: flex;
+  right: 0;
+  left: 0;
+  bottom: -10px;
+  position: absolute;
+  background: #f2f2f2;
+  width: 80px;
+  height: 2px;
+  margin: auto;
+}
 h2.h2--reviews-block {
   color: #f2f2f2;
+}
+h2.h2--reviews-block::after {
+  content: "";
+  display: flex;
+  right: 0;
+  left: 0;
+  bottom: -10px;
+  position: absolute;
+  background: #f2f2f2;
+  width: 80px;
+  height: 2px;
+  margin: auto;
 }
 h2::after {
   content: "";
@@ -182,7 +206,7 @@ h2::after {
   bottom: -10px;
   position: absolute;
   background: #242426;
-  width: 40%;
+  width: 80px;
   height: 2px;
   margin: auto;
 }

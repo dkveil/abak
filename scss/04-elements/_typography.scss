@@ -98,8 +98,34 @@ h2 {
     text-shadow: 0 0 20px $color-white;
     font-size: 4rem;
   }
+  &.h2--guaranted {
+    &::after {
+      content: "";
+      display: flex;
+      right: 0;
+      left: 0;
+      bottom: -10px;
+      position: absolute;
+      background: $color-white;
+      width: 80px;
+      height: 2px;
+      margin: auto;
+    }
+  }
   &.h2--reviews-block {
     color: $color-white;
+    &::after {
+      content: "";
+      display: flex;
+      right: 0;
+      left: 0;
+      bottom: -10px;
+      position: absolute;
+      background: $color-white;
+      width: 80px;
+      height: 2px;
+      margin: auto;
+    }
   }
   // }
   &::after {
@@ -110,7 +136,7 @@ h2 {
     bottom: -10px;
     position: absolute;
     background: $color-dark;
-    width: 40%;
+    width: 80px;
     height: 2px;
     margin: auto;
   }
