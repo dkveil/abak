@@ -1,0 +1,117 @@
+p {
+  // font-family: ;
+  // text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+  // line-height: 2.8rem;
+  // padding: $grid-base;
+  margin-top: $grid-base * 1.5;
+  color: $color-dark;
+  @include medium {
+    font-size: 2.2rem;
+    // text-align: left;
+  }
+  &.p-hero {
+    text-align: center;
+    color: $color-white;
+    text-shadow: 0 0 15px black;
+    padding: 0;
+    margin-top: 0;
+    @include medium {
+      text-align: left;
+      font-size: 2rem;
+      line-height: 2.4rem;
+      padding-left: 0.3rem;
+    }
+    @include large {
+      font-size: 2.4rem;
+      line-height: 2.2rem;
+      padding-left: 0.3rem;
+    }
+  }
+  &.p--for-contact-info {
+    font-family: "Montserrat", sans-serif;
+    color: $color-white;
+    font-size: 1.2rem;
+    &--bold {
+      font-weight: bold;
+    }
+  }
+  &.p--site-guaranted {
+    // text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.8rem;
+  }
+}
+h1 {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  color: $color-white;
+  margin: 0 auto;
+  font-size: 4.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-shadow: 0 0 15px black;
+  line-height: 0.9;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  @include medium {
+    // display: none;
+    display: block;
+    margin: 0;
+    text-align: left;
+    font-size: 5rem;
+    // line-height: 0rem;
+  }
+  @include large {
+    line-height: 4.5rem;
+    font-size: 6rem;
+  }
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: $color-white;
+    bottom: -8px;
+    margin: 0;
+    height: 2px;
+    width: 80%;
+    @include medium {
+      width: 120%;
+    }
+  }
+}
+h2 {
+  // text-transform: uppercase;
+  position: relative;
+  font-weight: bold;
+  font-size: 3.4rem;
+  text-align: center;
+  color: $color-dark;
+
+  &.h2--for-contact-info {
+    color: $color-white;
+    font-size: 1.8rem;
+  }
+  &.h2--site-contact-invite {
+    text-shadow: 2px 2px 20px $color-white;
+    font-size: 4rem;
+  }
+  &.h2--reviews-block {
+    color: $color-white;
+  }
+  // }
+  &::after {
+    content: "";
+    display: flex;
+    right: 0;
+    left: 0;
+    bottom: -10px;
+    position: absolute;
+    background: $color-dark;
+    width: 40%;
+    height: 2px;
+    margin: auto;
+  }
+}

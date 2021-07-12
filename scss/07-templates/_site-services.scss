@@ -1,0 +1,24 @@
+.site-services {
+  min-height: 50vh;
+  background: $color-white;
+}
+.services {
+  &-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0 $gutter $gutter $gutter;
+    margin: 5rem 0;
+    @include medium {
+      margin: 6rem auto 2rem auto;
+    }
+  }
+  &__btn {
+    margin: 4rem auto;
+  }
+  &__h2 {
+    margin-bottom: 5rem;
+    // margin-top: 2rem;
+  }
+}

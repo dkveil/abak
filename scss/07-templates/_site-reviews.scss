@@ -1,0 +1,22 @@
+.section-reviews {
+  min-height: 38vh;
+  background: #243047;
+  padding: 30px 30px 50px 30px;
+  margin: auto;
+  box-shadow: 0 0 15px $color-dark-blue;
+  position: relative;
+}
+.reviews-block {
+  margin: auto;
+  width: 100%;
+  @include large {
+    width: 60%;
+  }
+  &__h2 {
+    margin: 3rem auto 5rem auto;
+    z-index: 2;
+  }
+  &__script {
+    z-index: 2;
+  }
+}

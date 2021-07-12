@@ -1,0 +1,17 @@
+$font-base: 10px;
+
+//GRID
+$grid-base: $font-base;
+$gutter: 1.5 * $grid-base;
+
+//breakpoints RWD
+$bp-md: 768px;
+$bp-lg: 1240px;
+
+$color-white: #f2f2f2;
+$color-white-opacity: #f2f2f2f5;
+$color-white-opacity-btn: #f2f2f21e;
+$color-white-more-opacity-btn: #f2f2f27c;
+$color-dark: #242426;
+$color-dark-blue: #2d3c59;
+$color-light-blue: #243773;

@@ -1,0 +1,46 @@
+.site-guaranteed {
+  position: relative;
+  min-height: 30vh;
+  background: $color-dark-blue;
+  box-shadow: 0 0 15px $color-dark-blue;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 2;
+  }
+  &__h2 {
+    margin: 3rem auto 0 auto;
+    z-index: 3;
+    color: $color-white;
+  }
+  &__p {
+    text-align: center;
+    z-index: 3;
+    color: $color-white;
+  }
+  &__icon {
+    margin: 0 auto 3rem auto;
+    display: block;
+  }
+}
+.distinctions {
+  z-index: 3;
+  margin: 3rem auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  @include medium {
+    flex-direction: row;
+  }
+}
+.dist-col {
+  margin: 4rem auto;
+  @include medium {
+    margin: 0 auto;
+  }
+}

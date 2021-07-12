@@ -1,0 +1,29 @@
+.site-contact-invite {
+  height: 38vh;
+  background: url(../assets/img/site-contact-invite-background.jpg) center/cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  @include large {
+    background: url(../assets/img/site-contact-invite-desktop-exported.png)
+      center/cover;
+  }
+  &__btn {
+    margin: 4rem auto 0 auto;
+    z-index: 3;
+  }
+  &__h2 {
+    z-index: 3;
+  }
+}
+.site-footer-copyright {
+  z-index: 2;
+  height: 2vh;
+  background: black;
+  color: $color-white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

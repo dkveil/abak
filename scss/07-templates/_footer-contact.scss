@@ -1,0 +1,36 @@
+.site-footer-contact {
+  //   padding: 0;
+  min-height: 10vh;
+  background: $color-dark;
+  color: $color-white;
+  box-shadow: 0 0 15px $color-dark;
+  z-index: 3;
+}
+.contact-part-info {
+  //   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  text-transform: uppercase;
+  margin: auto 0.3rem;
+  &__title {
+    min-width: 12rem;
+    @include medium {
+      min-width: 12rem;
+    }
+  }
+  &__h2 {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    min-height: 4rem;
+    margin-right: 2rem;
+    @include medium {
+      margin-top: 0;
+    }
+  }
+  &__all-content {
+    display: flex;
+    flex-direction: row;
+  }
+}

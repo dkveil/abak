@@ -1,0 +1,39 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // align-self: center;
+  font-size: 1.5rem;
+  padding: 8px;
+  width: fit-content;
+  background: $color-white-opacity-btn;
+  color: $color-white;
+  border: 1px solid $color-white;
+  border-radius: 2px;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: 0 0 4px $color-dark-blue;
+  height: 40px;
+  // font-weight: 500;
+  @include medium {
+    border: 2px solid $color-white;
+    font-weight: 500;
+  }
+  &:hover,
+  &:focus {
+    background: $color-white;
+    color: $color-light-blue;
+  }
+  &--black {
+    border: 1px solid $color-dark;
+    color: $color-dark;
+    font-weight: bold;
+    background: $color-white-more-opacity-btn;
+    &:focus,
+    &:hover {
+      background: $color-dark;
+      color: $color-white;
+    }
+  }
+}
