@@ -726,6 +726,7 @@ h2::after {
   min-height: 30vh;
   background: #2d3c59;
   box-shadow: 0 0 15px #2d3c59;
+  z-index: 1;
 }
 .site-guaranteed::after {
   content: "";
@@ -790,10 +791,6 @@ h2::after {
 }
 .site-contact-invite__btn {
   margin: 4rem auto 0 auto;
-  z-index: 3;
-}
-.site-contact-invite__h2 {
-  z-index: 3;
 }
 
 .site-footer-copyright {

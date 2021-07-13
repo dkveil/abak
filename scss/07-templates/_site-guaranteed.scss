@@ -3,6 +3,7 @@
   min-height: 30vh;
   background: $color-dark-blue;
   box-shadow: 0 0 15px $color-dark-blue;
+  z-index: 1;
   &::after {
     content: "";
     position: absolute;
