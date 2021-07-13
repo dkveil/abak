@@ -3,12 +3,13 @@ p {
   // text-align: center;
   font-size: 2rem;
   font-weight: 300;
-  // line-height: 2.8rem;
   // padding: $grid-base;
   margin-top: $grid-base * 1.5;
   color: $color-dark;
+  line-height: 2.5rem;
   @include medium {
     font-size: 2.2rem;
+    line-height: 2.6rem;
     // text-align: left;
   }
   &.p-hero {
@@ -25,7 +26,7 @@ p {
     }
     @include large {
       font-size: 2.4rem;
-      line-height: 2.2rem;
+      line-height: 2.8rem;
       padding-left: 0.3rem;
     }
   }
@@ -33,6 +34,7 @@ p {
     font-family: "Montserrat", sans-serif;
     color: $color-white;
     font-size: 1.2rem;
+    line-height: 1;
     &--bold {
       font-weight: bold;
     }
